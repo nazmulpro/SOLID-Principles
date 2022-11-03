@@ -23,14 +23,18 @@ namespace InvoiceApp.Models
            return this.ItemPrice * this.Quantity;
         }
 
-        public void PrintInvoice()
-        {
-            //print invoice code
-        }
-
         public void SaveInvoice()
         {
             // save code
+            Console.WriteLine("Saved");
         }
+
+        public void PrintInvoice()
+        {
+            //print invoice code
+            Console.WriteLine("Print");
+        }
+
+        
     }
 }
