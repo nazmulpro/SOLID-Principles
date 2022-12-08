@@ -5,6 +5,7 @@
         private readonly string _itemName;
         private readonly double _itemPrice;
         private readonly int _quantity;
+        
         public Invoice(string itemName, double itemPrice,int quantity)
         {
             _itemName = itemName;
